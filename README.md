@@ -9,7 +9,7 @@ Dockerfile sendiri adalah merupakan skrip yang berisi atau terdiri dari serangka
 
 Contoh penggunaan dockerfile adalah untuk membuat image.*( A Dockerfile is a recipe (or blueprint if that helps) for building Docker images, and the act of running a separate build command produces the Docker image from that recipe.)*
  
-1. Dockerfile Commands
+*1. Dockerfile Commands*
 
 Sebelum kita memulai menggunakan dockerfile untuk membuat sebuah container, kita sedikit belajar dulu tentang perintah command yang ada pada dockerfile.
 
@@ -48,7 +48,7 @@ EXPOSE
 Perintah EXPOSE digunakan untuk menghubungkan port tertentu untuk mengaktifkan network antara proses yang berjalan di dalam container dan mesin host.
  
  
-2. Membuat Dockerfile dan Build Image
+*2. Membuat Dockerfile dan Build Image*
 
 Sekarang kita langsung saja mencoba membuat dockerfile untuk membuat suatu image yang berisi container. Sebagai contoh disini saya akan membuat container yang berisi Nginx web server. Pertama buat dulu file dockerfile dengan editor yang biasa anda gunakan, disini saya menggunakan vi
 
