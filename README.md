@@ -13,38 +13,38 @@ Contoh penggunaan dockerfile adalah untuk membuat image.*( A Dockerfile is a rec
 
 Sebelum kita memulai menggunakan dockerfile untuk membuat sebuah container, kita sedikit belajar dulu tentang perintah command yang ada pada dockerfile.
 
-ADD
+#### ADD
 Perintah ADD digunakan untuk mengcopy file dari suatu direktori ke direktori tujuan.
 Jika direktori asal adalah sebuah URL, perintah add akan mendownloadnya dan menempatkannya ke direktori tujuan.
 
-CMD
+#### CMD
 Perintah CMD hampir sama dengan perintah RUN, CMD digunakan untuk mengeksekusi perintah yang lebih spesifik, seperti pada saat proses pembuatan container pada image.
 
-ENTRYPOINT
+#### ENTRYPOINT
 ENTRYPOINT adalah argumen untuk mengeset default aplikasi yang digunakan setiap kali sebuah container dibuat menggunakan image.
 
-ENV
+#### ENV
 ENV digunakan untuk mengeset environment variables.
 
-FROM
+#### FROM
 FROM argument mendefinisikan sebuah base image yang akan digunakan untuk memulai membangun proses pada setiap docker image apakah itu di repositori ataupun di host kita sendiri.
 
-WORKDIR
+#### WORKDIR
 WORKDIR direktif digunakan untuk mengatur di mana perintah didefinisikan dengan CMD yang akan dieksekusi.
 
-RUN
+#### RUN
 RUN adalah perintah yang digunakan untuk membangun docker images yang terpusat untuk mengeksekusi Dockerfiles.
 
-MAINTAINER
+#### MAINTAINER
 MAINTAINER adalah perintah yang tidak dijalankan tetapi di deklarasikan sebagai author field dari images.
 
-USER
+#### USER
 USER direktif digunakan untuk mengatur UID (atau nama pengguna) yang menjalankan sebuah container berdasarkan dari image yang sedang dibangun.
 
-VOLUME
+#### VOLUME
 Perintah VOLUME digunakan untuk mengaktifkan akses dari kontainer kita ke direktori pada mesin host.
 
-EXPOSE
+#### EXPOSE
 Perintah EXPOSE digunakan untuk menghubungkan port tertentu untuk mengaktifkan network antara proses yang berjalan di dalam container dan mesin host.
  
  
