@@ -89,13 +89,13 @@ Langsung saja kita build image nya dengan menggunakan dockerfile diatas, untuk m
 
     docker build -t nginx_webserver .
 
- ![logo](https://github.com/riskalest/Tct_Per_12_Docker/blob/master/Step_1.PNG)	
+ ![logo](https://github.com/riskalest/ujian-tct/blob/master/1.jpg)	
 	
 Cek hasilnya dengan perintah
 
     docker images
 
- ![logo](https://github.com/riskalest/Tct_Per_12_Docker/blob/master/Step_1.PNG)
+ ![logo](https://github.com/riskalest/ujian-tct/blob/master/2.jpg)
 	
 disitu terlihat dengan image ID 5d62ac5f7514
 	
